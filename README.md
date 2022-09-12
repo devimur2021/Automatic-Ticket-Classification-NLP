@@ -1,47 +1,62 @@
-# Automatic-Ticket-Classification-NLP
-NLP Assignment to classify tickets atuomatically
+# Automatic Ticket Classification
+NLP : Automation ticket Classification
 
-Table of Contents
-General Info
-Approach
-Conclusions
-Acknowledgements
-General Information
-Build a model to predict factors leading to churn in Telecom industry -Predict Whether high value customers will churn or not -Identify strong predictors of churn
 
-Dataset : train.csv
-Data Dictionay : Data_Description.pdf
-Objective
-Build a CNN based model which can accurately detect melanoma. Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution that can evaluate images and alert dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
+## Table of Contents
+* [General Info](#general-information)
+* [Approach](#technologies-used)
+* [Conclusions](#conclusions)
+* [Acknowledgements](#acknowledgements)
 
-Approach
+
+
+## General Information
+Build a model to automaticall classify customer complaints ticket
+-Predict Whether high value customers will churn or not
+Classification should fall into major categories
+-Credit card / Prepaid card
+-Bank account services
+-Theft/Dispute reporting
+-Mortgages/loans
+-Others 
+
+
+## Objective
+Build a  NLP model that is able to classify customer complaints based on the products/services. By doing so, you can segregate these tickets into their relevant categories and, therefore, help in the quick resolution of the issue
+
+## Approach
 Steps followed in the data analysis
-
-Load the data
-Plan is to build multiple models
-Model 1 :
-Build a model for the given train data without handling data augumentation/Dropout
-Assess the model accuracy and loss function
-Record findings
-Model 2:
-Build a model for given train data after handling data agumentation
-Assess the model accurcay and loss function
-Check if class imbalance is present
-Model 3:
-Build a model after handling data augumentation, class imbalance
-Assess the model accuracy and loss function
-Record your observation
-Conclusions
+- Data loading
+-Text preprocessing
+-Exploratory data analysis (EDA)
+-Feature extraction
+-Topic modelling 
+-Model building using supervised learning
+  -Logistic Regression
+  -Decision Tree
+  -Random Classifier
+-Model training and evaluation
+-Model inferenceLoad the data
+-Plan is to build multiple models 
+  
+ 
+## Conclusions
 Relevant Python notebook and embeded output is part of the github repo
 
-Technologies Used
-Google collab
-Jupiter Notebook
-Programming : Python 3.x
-Libraries : Tensor flow, keras, glob,matplotlib
-Acknowledgements
-This project was assignment from UpGrad as part of course curriculum
-Reference : Tensorflow Documentation https://www.tensorflow.org/guide/Objective:
-Build an NLP model to classify Customer Compliants Tickets for a financial Organization
+## Technologies Used
+- Google collab
+- Jupiter Notebook
+- Programming : Python 3.x
+
+
+## Acknowledgements
+- This project was assignment from UpGrad as part of course curriculum
+- Reference : Tensorflow Documentation https://www.tensorflow.org/guide/
+
+
+## Contact
+Created by [@devimur2021] 
+
+
 
 
